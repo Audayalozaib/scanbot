@@ -1,7 +1,6 @@
 import requests
 import base64
 from telebot import TeleBot, types
-rr8r9
 
 API_TOKEN = "5086918397:AAEYjm4Vucfa-g3aLZ23HndyZbunj1FEVoA"
 CHANNEL_USERNAME = "@Toiii" 
@@ -61,7 +60,7 @@ def send_welcome(message):
         )
     else:
         markup = types.InlineKeyboardMarkup()
-        markup.add(types.InlineKeyboardButton("• Dev", url="https://t.me/rr8r9"))
+        markup.add(types.InlineKeyboardButton("• Dev", url="https://t.me/s_x_n"))
         bot.send_message(
             message.chat.id, 
             "أهلاً عزيزي، وضيفتي قرأءة نصوص الصور بدقة كبيرة، تم تطويري عبر واجهة برمجة تطبيقات جوجل .",
